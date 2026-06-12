@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Conformation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.click').click(function(){
+          $('.popup_box').css("display", "block");
+        });
+        $('.btn1').click(function(){
+          $('.popup_box').css("display", "none");
+        });
+        $('.btn2').click(function(){
+          $('.popup_box').css("display", "none");
+          alert("Account Permanently Deleted.");
+        });
+      });
+
+    </script>
+
+  </head>
+  <body>
+    <a href="#" class="click">Confirm</a>
+    <div class="popup_box">
+      <i class="fas fa-Check="></i>
+      <h1>Succesfully Order!</h1>
+      <label>Your order has been successfully Submitted.Thank you I hope you are happy</label>
+      <div class="btns">
+        <a href="index.HTML" class="btn1">Confirm</a>
+        <a href="inde.html" class="btn2">Order more</a>
+      </div>
+    </div>
+  </body>
+</html>

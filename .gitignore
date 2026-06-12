@@ -1,0 +1,13 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Exceed GitHub 100MB file limit
+src/assets/ADOBE XD/IMG_1967 (2).MOV
+src/assets/ADOBE XD/IMG_1967 (3).mov
+.git-filter-remove-large.sh
