@@ -13,7 +13,7 @@ interface EcommerceWebScreenshotsProps {
   isModalMode?: boolean;
 }
 
-const PHOTO_BASE = '/src/assets/ECOMMERCE/';
+const PHOTO_BASE = '/assets/ECOMMERCE/';
 
 export default function EcommerceWebScreenshots({ isDarkMode, isModalMode = false }: EcommerceWebScreenshotsProps) {
   const [hoveredLayoutId, setHoveredLayoutId] = useState<string | null>(null);

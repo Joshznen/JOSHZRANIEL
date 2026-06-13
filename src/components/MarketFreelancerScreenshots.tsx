@@ -13,7 +13,7 @@ interface MarketFreelancerScreenshotsProps {
   isModalMode?: boolean;
 }
 
-const PHOTO_BASE = '/src/assets/TITA ANLYN RENT/';
+const PHOTO_BASE = '/assets/TITA ANLYN RENT/';
 
 export default function MarketFreelancerScreenshots({ isDarkMode, isModalMode = false }: MarketFreelancerScreenshotsProps) {
   const [hoveredLayoutId, setHoveredLayoutId] = useState<string | null>(null);

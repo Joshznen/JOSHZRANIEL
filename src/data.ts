@@ -539,9 +539,9 @@ export const projects: Project[] = [
     ],
     challenges: 'Balancing premium design aesthetics with performance — ensuring Framer Motion scroll animations, large image assets, and real-time interactive state updates all remain smooth without layout shifts.',
     lessons: 'Mastered advanced full-stack integration patterns and production-grade Vite bundling with code splitting.',
-    imageUrl: '/src/assets/images/regenerated_image_1780980751610.jpg',
+    imageUrl: '/assets/images/regenerated_image_1780980751610.jpg',
     images: [
-      '/src/assets/images/portfolio_hero.png',
+      '/assets/images/portfolio_hero.png',
     ],
     keyFeatures: [
       { icon: 'Sparkles', title: 'AI Nexus Assistant', description: 'Scroll-aware AI companion that provides contextual guidance, suggested actions, and navigation prompts based on which section you\'re viewing.' },
@@ -575,10 +575,10 @@ export const projects: Project[] = [
     ],
     challenges: 'Designing a flexible, highly intuitive page layout and patient record pagination (PIR sheets) that maps seamlessly in real-time onto typical clinic workstations without overhead lag.',
     lessons: 'Adopted rigorous systems analysis matching ISO/IEC 25010 standards, and verified medical privacy and data protection policies with institutional supervisors.',
-    imageUrl: '/src/assets/images/identify_capstone_1780889210858.png',
+    imageUrl: '/assets/images/identify_capstone_1780889210858.png',
     images: [
-      '/src/assets/images/identify_capstone_1780889210858.png',
-      '/src/assets/images/regenerated_image_1780980944980.png'
+      '/assets/images/identify_capstone_1780889210858.png',
+      '/assets/images/regenerated_image_1780980944980.png'
     ],
     demoUrl: 'https://i-dent-ify.netlify.app/dashboard.html',
     githubUrl: 'https://github.com/joshzraniel/iDENTify'
@@ -596,9 +596,9 @@ export const projects: Project[] = [
     ],
     challenges: 'Ensuring complex animations and transitions run smoothly within the prototyping environment.',
     lessons: 'Mastered Adobe XD auto-animate features and component states for high-fidelity prototyping.',
-    imageUrl: '/src/assets/ADOBE XD/ADOBE PIC.png',
+    imageUrl: '/assets/ADOBE XD/ADOBE PIC.png',
     images: [
-      '/src/assets/ADOBE XD/ADOBE PIC.png'
+      '/assets/ADOBE XD/ADOBE PIC.png'
     ]
   },
   {
@@ -614,12 +614,12 @@ export const projects: Project[] = [
     ],
     challenges: 'Harmonizing rustic textured retail labels with sharp, minimal corporate vector elements within a unified portfolio display.',
     lessons: 'Mastered margin bleeds, exact physical scale specs for ID printing, circle text constraints, and barcode generation standards.',
-    imageUrl: '/src/assets/images/coffee_shop_logo_2024_1780890752439.png',
+    imageUrl: '/assets/images/coffee_shop_logo_2024_1780890752439.png',
     images: [
-      '/src/assets/images/coffee_shop_logo_2024_1780890752439.png',
-      '/src/assets/images/corporate_id_card_front_1780890768328.png',
-      '/src/assets/images/corporate_id_card_back_1780890785914.png',
-      '/src/assets/images/regenerated_image_1780894643068.jpg'
+      '/assets/images/coffee_shop_logo_2024_1780890752439.png',
+      '/assets/images/corporate_id_card_front_1780890768328.png',
+      '/assets/images/corporate_id_card_back_1780890785914.png',
+      '/assets/images/regenerated_image_1780894643068.jpg'
     ]
   },
   {
@@ -635,12 +635,12 @@ export const projects: Project[] = [
     ],
     challenges: 'Maintaining visual brand consistency across multiple hair care product types while ensuring each variant has a distinct identity that communicates its specific benefit to the consumer.',
     lessons: 'Deepened expertise in structural dieline geometry for cylindrical and rectangular containers, label wrap calculations, and ink layer depth management specific to hair care product packaging.',
-    imageUrl: '/src/assets/images/regenerated_image_1780893454974.jpg',
+    imageUrl: '/assets/images/regenerated_image_1780893454974.jpg',
     images: [
-      '/src/assets/images/regenerated_image_1780893454974.jpg',
-      '/src/assets/images/packaging_design_1_1780889828047.png',
-      '/src/assets/IMG_5718.jpg',
-      '/src/assets/IMG_4289.JPG'
+      '/assets/images/regenerated_image_1780893454974.jpg',
+      '/assets/images/packaging_design_1_1780889828047.png',
+      '/assets/IMG_5718.jpg',
+      '/assets/IMG_4289.JPG'
     ]
   },
   {
@@ -656,13 +656,13 @@ export const projects: Project[] = [
     ],
     challenges: 'Coding the entire layout and styling from scratch using vanilla HTML and CSS before AI tools were available, ensuring responsiveness and aesthetic appeal.',
     lessons: 'Gained a deep, foundational understanding of web development, HTML structure, and CSS styling principles by manually coding every component.',
-    imageUrl: '/src/assets/joshz website 2/background.jpg',
+    imageUrl: '/assets/joshz website 2/background.jpg',
     images: [
-      '/src/assets/joshz website 2/background.jpg',
-      '/src/assets/joshz website 2/background2.jpg',
-      '/src/assets/joshz website 2/coffe background.jpg',
-      '/src/assets/joshz website 2/coffe wall.jpg',
-      '/src/assets/joshz website 2/coffe.jpg'
+      '/assets/joshz website 2/background.jpg',
+      '/assets/joshz website 2/background2.jpg',
+      '/assets/joshz website 2/coffe background.jpg',
+      '/assets/joshz website 2/coffe wall.jpg',
+      '/assets/joshz website 2/coffe.jpg'
     ],
     keyFeatures: [
       { icon: 'Code', title: 'Scratch Built', description: 'Developed entirely from scratch using Visual Studio without any AI assistance.' },
@@ -674,7 +674,7 @@ export const projects: Project[] = [
       { name: 'CSS3', color: '#1572B6' },
       { name: 'JavaScript', color: '#F7DF1E' }
     ],
-    demoUrl: '/src/assets/joshz website 2/log in/index.html'
+    demoUrl: '/assets/joshz website 2/log in/index.html'
   },
   {
     id: 'proj_market_freelancer',
@@ -689,9 +689,9 @@ export const projects: Project[] = [
     ],
     challenges: 'Crafting compelling and trustworthy listings that stand out in competitive marketplaces while managing multiple clients simultaneously.',
     lessons: 'Developed strong real estate marketing skills, negotiation techniques, and an understanding of what drives buyer and renter decisions online.',
-    imageUrl: '/src/assets/TITA ANLYN RENT/1.png',
+    imageUrl: '/assets/TITA ANLYN RENT/1.png',
     images: [
-      '/src/assets/TITA ANLYN RENT/1.png'
+      '/assets/TITA ANLYN RENT/1.png'
     ]
   }
 ];

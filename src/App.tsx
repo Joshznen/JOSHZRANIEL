@@ -668,7 +668,7 @@ export default function App() {
             }`}>
               <div className={`relative aspect-[3/4] overflow-hidden border ${isDarkMode ? 'border-stone-830' : 'border-stone-100'}`}>
                 <img 
-                  src="/src/assets/images/regenerated_image_1780980751610.jpg" 
+                  src="/assets/images/regenerated_image_1780980751610.jpg" 
                   alt="Joshz Raniel Marasigan Portrait" 
                   className="w-full h-full object-cover transition-all duration-700 hover:scale-[1.03]"
                   referrerPolicy="no-referrer"
@@ -884,7 +884,7 @@ export default function App() {
                 }`}>
                   <div className="w-full h-full rounded-full overflow-hidden border border-stone-200/20">
                     <img 
-                      src="/src/assets/images/regenerated_image_1780980753910.jpg" 
+                      src="/assets/images/regenerated_image_1780980753910.jpg" 
                       alt="Joshz Raniel Marasigan Avatar" 
                       className="w-full h-full object-cover rounded-full"
                       referrerPolicy="no-referrer"

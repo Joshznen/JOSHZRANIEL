@@ -81,32 +81,32 @@ export function DentistryScreenLayoutsModal({ isOpen, onClose, isDarkMode }: Den
   const getScreenshotForLayout = (id: string) => {
     // Exact mapping to the actual research project screenshots from the PDF!
     if (id === 'admin_login') {
-      return '/src/assets/images/regenerated_image_1780980944980.png';
+      return '/assets/images/regenerated_image_1780980944980.png';
     }
     
     // Admin specific outputs
     if (id === 'admin_dash') {
-      return '/src/assets/images/regenerated_image_1780894030733.jpg';
+      return '/assets/images/regenerated_image_1780894030733.jpg';
     }
     if (id === 'admin_patient') {
-      return '/src/assets/images/identify_capstone_1780889210858.png';
+      return '/assets/images/identify_capstone_1780889210858.png';
     }
     if (id === 'admin_vir_1' || id === 'admin_edit_1') {
-      return '/src/assets/images/regenerated_image_1780894030733.jpg';
+      return '/assets/images/regenerated_image_1780894030733.jpg';
     }
     
     // Clinician outputs
     if (id.startsWith('clin_')) {
-      return '/src/assets/images/regenerated_image_1780894387324.jpg';
+      return '/assets/images/regenerated_image_1780894387324.jpg';
     }
 
     // CI outputs
     if (id.startsWith('ci_')) {
-      return '/src/assets/images/regenerated_image_1780894826341.jpg';
+      return '/assets/images/regenerated_image_1780894826341.jpg';
     }
 
     // Default to the capstone main layout screenshot
-    return '/src/assets/images/identify_capstone_1780889210858.png';
+    return '/assets/images/identify_capstone_1780889210858.png';
   };
 
   const currentLayoutList = layoutDirectory[selectedRole];

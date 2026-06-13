@@ -5,7 +5,7 @@ interface AdobeXdRecordingsProps {
   isModalMode?: boolean;
 }
 
-const VIDEO_BASE = '/src/assets/ADOBE XD/';
+const VIDEO_BASE = '/assets/ADOBE XD/';
 
 export default function AdobeXdRecordings({ isDarkMode, isModalMode = false }: AdobeXdRecordingsProps) {
   const videos = [

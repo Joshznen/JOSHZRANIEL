@@ -36,7 +36,7 @@ interface DentistrySystemScreenshotsProps {
 }
 
 // Map of all actual photos from the dentist photo directory, sorted by role
-const PHOTO_BASE = '/src/assets/dentist%20photo/';
+const PHOTO_BASE = '/assets/dentist%20photo/';
 
 export default function DentistrySystemScreenshots({ isDarkMode, isModalMode = false }: DentistrySystemScreenshotsProps) {
   const [selectedRole, setSelectedRole] = useState<'admin' | 'clinician' | 'ci' | 'cod'>('admin');
