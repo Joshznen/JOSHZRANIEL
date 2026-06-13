@@ -1,4 +1,5 @@
 import React from 'react';
+import {assetUrl} from '../lib/assetUrl';
 
 interface AdobeXdRecordingsProps {
   isDarkMode: boolean;
@@ -35,7 +36,7 @@ export default function AdobeXdRecordings({ isDarkMode, isModalMode = false }: A
                 <video
                   controls
                   className="w-full h-full object-contain"
-                  src={vid.src}
+                  src={assetUrl(vid.src)}
                 />
               </div>
             </div>

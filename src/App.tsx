@@ -61,6 +61,7 @@ import DentistrySystemScreenshots from './components/DentistrySystemScreenshots'
 import EcommerceWebScreenshots from './components/EcommerceWebScreenshots';
 import AdobeXdRecordings from './components/AdobeXdRecordings';
 import MarketFreelancerScreenshots from './components/MarketFreelancerScreenshots';
+import {assetUrl} from './lib/assetUrl';
 
 // Import the static PDF
 import cvPdfUrl from './assets/IT SUPPORT_MARASIGAN_CV.pdf';
@@ -668,7 +669,7 @@ export default function App() {
             }`}>
               <div className={`relative aspect-[3/4] overflow-hidden border ${isDarkMode ? 'border-stone-830' : 'border-stone-100'}`}>
                 <img 
-                  src="/assets/images/regenerated_image_1780980751610.jpg" 
+                  src={assetUrl("/assets/images/regenerated_image_1780980751610.jpg")} 
                   alt="Joshz Raniel Marasigan Portrait" 
                   className="w-full h-full object-cover transition-all duration-700 hover:scale-[1.03]"
                   referrerPolicy="no-referrer"
@@ -820,7 +821,7 @@ export default function App() {
                     isDarkMode ? 'bg-[#0d0d12] border-stone-800/85' : 'bg-stone-50 border-stone-200'
                   }`}>
                     <img
-                      src={p.imageUrl}
+                      src={assetUrl(p.imageUrl)}
                       alt={p.title}
                       className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
                       referrerPolicy="no-referrer"
@@ -884,7 +885,7 @@ export default function App() {
                 }`}>
                   <div className="w-full h-full rounded-full overflow-hidden border border-stone-200/20">
                     <img 
-                      src="/assets/images/regenerated_image_1780980753910.jpg" 
+                      src={assetUrl("/assets/images/regenerated_image_1780980753910.jpg")} 
                       alt="Joshz Raniel Marasigan Avatar" 
                       className="w-full h-full object-cover rounded-full"
                       referrerPolicy="no-referrer"
@@ -1636,7 +1637,7 @@ export default function App() {
                   isDarkMode ? 'bg-[#0d0d12] border-stone-830' : 'bg-stone-100 border-stone-200'
                 }`} style={{ minHeight: '260px', maxHeight: '520px' }}>
                   <img
-                    src={carouselImages[currentIndex]}
+                    src={assetUrl(carouselImages[currentIndex])}
                     alt={`${selectedProject.title} gallery ${currentIndex}`}
                     className="w-full h-full object-contain"
                     style={{ maxHeight: '520px', minHeight: '260px' }}

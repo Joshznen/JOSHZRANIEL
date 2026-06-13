@@ -14,6 +14,7 @@ import {
   Minimize2,
   Sparkles
 } from 'lucide-react';
+import {assetUrl} from '../lib/assetUrl';
 
 interface DentistryScreenLayoutsModalProps {
   isOpen: boolean;
@@ -313,7 +314,7 @@ export function DentistryScreenLayoutsModal({ isOpen, onClose, isDarkMode }: Den
                 <div className="relative max-w-full max-h-[50vh] xl:max-h-[55vh] flex items-center justify-center group overflow-hidden rounded border border-stone-800 bg-[#060608] shadow-2xl">
                   {/* REAL PDF SCREENSHOT IMAGE DISPLAY */}
                   <img 
-                    src={activeImagePath} 
+                    src={assetUrl(activeImagePath)} 
                     alt={activeLayout.name}
                     referrerPolicy="no-referrer"
                     className="max-w-full max-h-[48vh] xl:max-h-[52vh] object-contain transition-transform duration-300 pointer-events-auto hover:scale-110 cursor-zoom-in"

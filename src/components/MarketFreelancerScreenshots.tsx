@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { Eye } from 'lucide-react';
+import {assetUrl} from '../lib/assetUrl';
 
 interface LayoutItem {
   id: string;
@@ -54,7 +55,7 @@ export default function MarketFreelancerScreenshots({ isDarkMode, isModalMode = 
                   isDarkMode ? 'bg-stone-950 border-stone-850/40' : 'bg-stone-50 border-stone-200/50'
                 }`}>
                   <img
-                    src={layout.photo}
+                    src={assetUrl(layout.photo)}
                     alt={layout.name}
                     className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                     loading="lazy"
@@ -99,7 +100,7 @@ export default function MarketFreelancerScreenshots({ isDarkMode, isModalMode = 
           </button>
         </div>
         <img
-          src={lightboxPhoto.src}
+          src={assetUrl(lightboxPhoto.src)}
           alt={lightboxPhoto.title}
           className="w-full rounded-xl shadow-2xl border border-stone-700/60 object-contain"
           style={{ maxHeight: '82vh' }}

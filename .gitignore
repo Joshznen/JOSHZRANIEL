@@ -7,6 +7,9 @@ coverage/
 .env*
 !.env.example
 
+# Generated from src/assets before build
+public/assets/
+
 # Exceed GitHub 100MB file limit
 src/assets/ADOBE XD/IMG_1967 (2).MOV
 src/assets/ADOBE XD/IMG_1967 (3).mov
